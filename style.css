@@ -17,9 +17,9 @@
 
 .fond_nav
 {
-  background-color: #203864;
-  color: white;
-  font-size: 18px;
+  background-color: #203864 !important;
+  color: white !important;
+  font-size: 18px !important;
 }
 
 .navigation
@@ -74,6 +74,20 @@
   padding-left: 50px;
 }
 
+/*Projets*/
+.titre_pro
+{
+  color: #203864;
+  margin-left: 50px;
+}
+
+.bloc_projets
+{
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
 
 /*footer*/
 footer
