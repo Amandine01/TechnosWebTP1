@@ -1,0 +1,86 @@
+/*Accueil*/
+.fond
+{
+  background-image: url("images/fond.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  overflow-x: hidden;
+
+  color: white;
+  padding-top: 350px;
+  padding-bottom: 200px;
+}
+
+.fond_nav
+{
+  background-color: #203864;
+  color: white;
+  font-size: 18px;
+}
+
+.navigation
+{
+  color: white !important;
+}
+
+.navigation:hover
+{
+  color: #203864 !important;
+}
+
+.accueil
+{
+  background-color: #203864 !important;
+  color: white;
+}
+
+.qualites
+{
+  padding-top: 40px;
+  list-style: none !important;
+}
+
+.formation
+{
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-color: #dee9fc;
+}
+
+.gras
+{
+  font-weight: bold;
+}
+
+.titre_forma
+{
+  color: #203864;
+  margin-bottom: 40px;
+}
+
+.titre_partie
+{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dates
+{
+  padding-left: 50px;
+}
+
+
+/*footer*/
+footer
+{
+    background-color: #203864;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
