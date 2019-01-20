@@ -156,6 +156,27 @@ body
   border: none;
 }
 
+/*Contact*/
+input:valid
+{
+   border: 1px green solid !important;
+}
+
+input:invalid
+{
+   border: 1px #b4000b solid !important;
+}
+
+.asterix
+{
+  color: red !important;
+}
+
+.bloc_contact
+{
+  margin-bottom: 100px;
+}
+
 /*footer*/
 footer
 {
