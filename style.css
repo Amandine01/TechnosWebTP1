@@ -1,3 +1,14 @@
+@font-face
+{
+    font-family: 'futura';
+    src: url('FuturaLight.ttf');
+}
+
+body
+{
+  font-family: "futura";
+}
+
 /*Accueil*/
 .fond
 {
@@ -12,7 +23,7 @@
 
   color: white;
   padding-top: 350px;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 
 .fond_nav
@@ -52,6 +63,17 @@
   background-color: #dee9fc;
 }
 
+.description
+{
+  background-color: #071a31;
+  font-size: 16px;
+  margin-top: 50px;
+  padding: 20px;
+  line-height: 2;
+  margin-left: 8px;
+  text-align: justify;
+}
+
 .gras
 {
   font-weight: bold;
@@ -71,22 +93,35 @@
 
 .dates
 {
-  padding-left: 50px;
+  padding-left: 30px;
+  font-weight: bold;
 }
 
 /*Projets*/
 .titre_pro
 {
   color: #203864;
-  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .bloc_projets
 {
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 100px;
+  padding-right: 200px;
   padding-top: 30px;
   padding-bottom: 40px;
+  font-size: 16px;
+  background-color: #cee1f8;
+}
+
+.ligneProjets
+{
+  height: 1px;
+  background-color: #203864;
+  border: none;
 }
 
 /*footer*/
