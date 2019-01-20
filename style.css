@@ -63,6 +63,11 @@ body
   background-color: #dee9fc;
 }
 
+.bloc_index
+{
+  margin: 15px;
+}
+
 .description
 {
   background-color: #071a31;
@@ -72,6 +77,16 @@ body
   line-height: 2;
   margin-left: 8px;
   text-align: justify;
+}
+
+.texte_index
+{
+  font-size: 16px;
+}
+
+.partie_index
+{
+  margin-bottom: 80px;
 }
 
 .gras
@@ -100,12 +115,29 @@ body
 /*Projets*/
 .titre_pro
 {
-  color: #203864;
   margin-bottom: 30px;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+
+  -webkit-animation-name: animation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: animation;
+  animation-duration: 2s;
 }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animation {
+  from {color: #dee9fc;}
+  to {color: #203864;}
+}
+
+/* Standard syntax */
+@keyframes animation {
+  from {color: #dee9fc;}
+  to {color: #203864;}
+}
+
 
 .bloc_projets
 {
