@@ -37,56 +37,56 @@
         </ul>
     </nav>
 
-    <div class="container-fluid bloc_contact">
+    <section class="container-fluid bloc_contact">
       <h1 class="titre_pro animation">ME CONTACTER</h1>
       <hr class="ligneProjets">
 
       <form id="mon_formulaire" method="post">
         <!-- Nom -->
-        <div class="form-group">
+        <section class="form-group">
           <label class="control-label col-md-2" for="nom">Nom</label>
-          <div class="col-md-10">
+          <section class="col-md-10">
             <input class="form-control" id="nom" name="nom" placeholder="Nom" type="text" pattern="[a-zA-Zäâéèëêîïôöûüÿ-]{2,20}$">
-          </div>
-        </div>
+          </section>
+        </section>
 
         <!-- Prénom -->
-        <div class="form-group">
+        <section class="form-group">
           <label class="control-label col-md-2" for="prenom">Prénom</label>
-          <div class="col-md-10">
+          <section class="col-md-10">
             <input class="form-control" id="prenom" name="prenom" placeholder="Prénom" type="text" pattern="[a-zA-Zäâéèëêîïôöûüÿ-]{2,20}$">
-          </div>
-        </div>
+          </section>
+        </section>
 
         <!-- Adresse e-mail -->
-        <div class="form-group">
+        <section class="form-group">
           <label class="control-label col-md-2" for="email">Email<span class="asterix">*</span></label>
-          <div class="col-md-10">
+          <section class="col-md-10">
             <input class="form-control" id="email" name="email" placeholder="E-mail" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
-          </div>
-        </div>
+          </section>
+        </section>
 
         <!-- Commentaire -->
-        <div class="form-group">
+        <section class="form-group">
           <label class="control-label col-md-2" for="commentaire">Message</label>
-          <div class="col-md-10">
+          <section class="col-md-10">
             <textarea class="form-control" id="commentaire" name="commentaire" placeholder="Ecrire un message ici" rows="5"></textarea>
-          </div>
-        </div>
+          </section>
+        </section>
 
         <!-- Bouton Reinitialiser -->
-        <div class="form-group">
-          <div class="col-md-5">
+        <section class="form-group">
+          <section class="col-md-5">
             <button type="reset" class="btn btn-warning">Réinitialiser</button>
-          </div>
+          </section>
 
           <!-- Bouton Envoyer -->
-          <div class="col-md-offset-2 col-md-5">
+          <section class="col-md-offset-2 col-md-5">
             <button type="submit" class="btn btn-info pull-right">Envoyer</button>
-          </div>
-        </div>
+          </section>
+        </section>
       </form>
-    </div>
+    </section>
 
     <script type="text/javascript">
     var myForm = document.getElementById('mon_formulaire');
